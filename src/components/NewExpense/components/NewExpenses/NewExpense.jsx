@@ -1,8 +1,7 @@
 import React from 'react'
-import ExpensesFilter from '../ExpensesFilter/ExpensesFilter'
-import ExpenseForm from './ExpenseForm'
+import ExpenseForm from '../ExpenseForm/ExpenseForm'
 import './NewExpense.css'
-const NewExpense = (props) => {
+const NewExpenses = (props) => {
   const saveExpenseDataHandler = (enterExpenseData)=>{
     const expenseData = {
       ...enterExpenseData,
@@ -19,4 +18,4 @@ const NewExpense = (props) => {
   )
 }
 
-export default NewExpense
+export default NewExpenses
